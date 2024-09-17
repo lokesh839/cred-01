@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loki.css">
+
+
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="" id="form">
+            <h1>Register</h1>
+            <div class="input-group">
+                <label for="username">username</label>
+                <input type="text" name="username" id="username">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="email">email</label>
+                <input type="text" name="email" id="email">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="password">password</label>
+                <input type="password" name="password" id="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="cpassword">confirmpassword</label>
+                <input type="cpassword" name="cpassword" id="cpassword">
+                <div class="error"></div>
+
+                <button type="submit" onclick="getdata()" id ="submit">sumitted</button>
+                <button type="button" onclick="" style="display: none;">update</button>
+
+            </div>
+        </form>
+        <table border="1">
+            <thead>
+                <th>username</th>
+                <th>email</th>
+                <th>password</th>
+                <th>cpassword</th>
+                <th>edit</th>
+                <th>delect</th>
+
+            </thead>
+            <tbody>
+
+            </tbody>
+
+        </table>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
